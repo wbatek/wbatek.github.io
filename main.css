@@ -16,9 +16,9 @@ ul{
 
 .social{
 height: auto;
-width:2000px;
+width:100vw;
 float: left;
-padding-left: 20px;
+padding-left: 1vw;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 color: #333333;
@@ -30,8 +30,8 @@ margin-right: 40px;
 
 .icons{
 display: inline-block;
-width: 450px; 
-height: 64px; 
+width: 23vw; 
+height: 50vh; 
 }
 
 
