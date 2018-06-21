@@ -1,38 +1,78 @@
+body{
+	overflow-x: hidden;
+	margin: 0;
+	margin-top:0;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
 main{
 	font-size: 120%;
 	color: white;
 }
 
-ul{
-	list-style-type: none;
-	}
+.navbar {
+	background-color: #333;
+	overflow: hidden;
+	position:fixed;
+	top:0;
+	width: 100%;
+}
 
-.description{
-	background-image: url("pictures/table.jpg");
-	height: 500px;
+.navbar a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.home{
+	background-image: url("pictures/background.jpg");
+	height: 1100px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+.hello {
+	text-align: center;
+	vertical-align: text-bottom;
+	margin-top: 50px;
+	margin-left: 35%;
+	margin-right: 35%;
+	font-size: 300%;
+	background-color: #000000;
+	color: 	#800080;
+	box-shadow: 5px 5px 5px #333333;
+}
+
+.hello2 {
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
 .social{
-height: auto;
-width:100vw;
-float: left;
-padding-left: 1vw;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 12px;
-color: #333333;
-padding-top: 20px;
-padding-right: 20px;
-margin-left:40px;
-margin-right: 40px;
+	width:100vw;
+	padding-top: 2vw;
+	padding-left: 2vw;
+	padding-right:2vw;
+	padding-bottom: 2vw;
+	font-size:0;
+	background-color:grey;
+	background-size:cover;
 }
 
 .icons{
-display: inline-block;
-width: 23vw; 
-height: 50vh; 
+	display: inline-block;
+	width: 16vw; 
+	margin-left:4vw;
+	margin-right:4vw;
+	font-size:0;
 }
 
 
+footer {
+	text-align: center;
+}
 
